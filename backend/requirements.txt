@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+psycopg[binary]
+pyjwt
+bcrypt
+python-multipart
+python-dotenv
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+joblib
+# Run the backend inside the SAME venv you trained in, so scikit-learn / xgboost
+# versions match the pickled model. Pin exact versions later with: pip freeze

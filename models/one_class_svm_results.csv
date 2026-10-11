@@ -1,0 +1,4 @@
+model,variant,precision,recall,f1,roc_auc,true_positives,false_positives,true_negatives,false_negatives
+One-Class SVM,Wider Net (2x Rate),0.0491,0.1778,0.0769,0.6572,8,155,15800,37
+One-Class SVM,Calibrated to True Rate,0.0488,0.1778,0.0766,0.6561,8,156,15799,37
+One-Class SVM,Moderate Assumption (nu=0.05),0.026,0.4222,0.0489,0.7298,19,713,15242,26

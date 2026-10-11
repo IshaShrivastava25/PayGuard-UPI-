@@ -1,0 +1,4 @@
+model,variant,precision,recall,f1,roc_auc,true_positives,false_positives,true_negatives,false_negatives
+XGBoost,SMOTE,0.72,0.8,0.7579,0.9843,36,14,15941,9
+XGBoost,Class-Weighted,0.7292,0.7778,0.7527,0.9723,35,13,15942,10
+XGBoost,Undersampling,0.0289,0.8889,0.0559,0.9539,40,1345,14610,5

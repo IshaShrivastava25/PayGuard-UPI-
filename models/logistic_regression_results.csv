@@ -1,0 +1,4 @@
+model,variant,precision,recall,f1,roc_auc,true_positives,false_positives,true_negatives,false_negatives
+Logistic Regression,Class-Weighted,0.0399,0.8222,0.0761,0.9624,37,890,15065,8
+Logistic Regression,SMOTE,0.0382,0.7778,0.0728,0.948,35,881,15074,10
+Logistic Regression,Undersampling,0.0313,0.8667,0.0604,0.9497,39,1208,14747,6
